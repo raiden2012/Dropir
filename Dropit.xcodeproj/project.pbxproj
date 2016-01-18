@@ -16,6 +16,7 @@
 		7E20C6E91C424CD000F9A863 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C6E81C424CD000F9A863 /* DropitTests.m */; };
 		7E20C6F41C424CD000F9A863 /* DropitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C6F31C424CD000F9A863 /* DropitUITests.m */; };
 		7E20C7031C4251A200F9A863 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C7021C4251A200F9A863 /* DropitBehavior.m */; };
+		7E5E0B671C4D175F00CA8ACA /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E0B661C4D175F00CA8ACA /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7E20C6F51C424CD000F9A863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E20C7011C4251A200F9A863 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		7E20C7021C4251A200F9A863 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		7E5E0B651C4D175E00CA8ACA /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		7E5E0B661C4D175F00CA8ACA /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				7E20C6D21C424CD000F9A863 /* AppDelegate.m */,
 				7E20C6D41C424CD000F9A863 /* ViewController.h */,
 				7E20C6D51C424CD000F9A863 /* ViewController.m */,
+				7E5E0B651C4D175E00CA8ACA /* BezierPathView.h */,
+				7E5E0B661C4D175F00CA8ACA /* BezierPathView.m */,
 				7E20C6D71C424CD000F9A863 /* Main.storyboard */,
 				7E20C7011C4251A200F9A863 /* DropitBehavior.h */,
 				7E20C7021C4251A200F9A863 /* DropitBehavior.m */,
@@ -212,7 +217,7 @@
 				TargetAttributes = {
 					7E20C6CA1C424CD000F9A863 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = P9KPHJJ6R4;
+						DevelopmentTeam = V9HZHBNPTW;
 					};
 					7E20C6E31C424CD000F9A863 = {
 						CreatedOnToolsVersion = 7.2;
@@ -278,6 +283,7 @@
 			files = (
 				7E20C6D61C424CD000F9A863 /* ViewController.m in Sources */,
 				7E20C7031C4251A200F9A863 /* DropitBehavior.m in Sources */,
+				7E5E0B671C4D175F00CA8ACA /* BezierPathView.m in Sources */,
 				7E20C6D31C424CD000F9A863 /* AppDelegate.m in Sources */,
 				7E20C6D01C424CD000F9A863 /* main.m in Sources */,
 			);
@@ -421,7 +427,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Dropit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wei.Dropit;
+				PRODUCT_BUNDLE_IDENTIFIER = weitu.Dropit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,7 +439,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Dropit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wei.Dropit;
+				PRODUCT_BUNDLE_IDENTIFIER = weitu.Dropit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +511,7 @@
 				7E20C6FA1C424CD000F9A863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E20C6FB1C424CD000F9A863 /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				7E20C6FD1C424CD000F9A863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E20C6FE1C424CD000F9A863 /* Build configuration list for PBXNativeTarget "DropitUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				7E20C7001C424CD000F9A863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
